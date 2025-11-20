@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>uliecraft - Satu Tas, Satu Cerita</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"> 
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+<div hidden> 
+<!-- Top Bar -->
+<div class="container-fluid px-3 px-lg-5 d-none d-lg-block" style="background-color: #285151; border-bottom: 2px solid #ffffff;">
+    <div class="row gx-0 align-items-center" style="height: 45px;">
+        <div class="col-12 text-center text-lg-start">
+            <span style="color: #285151;">Carry Your Story, Carry Your Style</span>
+        </div>
+    </div>
+</div>
+</div>
+
+<!-- Main Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #D4E7E8; border-bottom : 5px solid #ffffff">
+    <div class="container-fluid px-3 px-lg-5">
+
+        <!-- Logo -->
+        <a class="navbar-brand" href="index.html">
+            <img src="img/Ulie2.png" alt="Uliecraft Logo" style="height: 70px;">
+        </a>
+
+        <!-- Toggler Button (Mobile) -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="fa fa-bars" style="color: #285151;"></span>
+        </button>
+
+        <!-- Navbar Links -->
+        <div class="collapse navbar-collapse" id="mainNavbar">
+            <!-- Center Menu -->
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0 d-flex flex-row gap-4">
+                <li class="nav-item">
+                    <a class="nav-link active" href="shop.html" style="color: #285151; font-size: 1.1rem; padding: 0.5rem 1rem;">Shop</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="cheackout.html" style="color: #285151; font-size: 1.1rem; padding: 0.5rem 1rem;">Checkout</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html" style="color: #285151; font-size: 1.1rem; padding: 0.5rem 1rem;">Contact</a>
+                </li>
+                <!-- Mobile Dropdown -->
+            <!-- Search Bar & Icons -->
+            <div class="d-flex align-items-center gap-3 flex-wrap">
+                <!-- Search -->
+                <div class="d-flex border rounded-pill" style="border-color: #285151 !important; flex-grow: 1; max-width: 500px;">
+                    <input type="text" class="form-control border-0 rounded-pill py-2 px-3" placeholder="Search Looking For?" style="color: #285151; width: 100%;">
+                    <button type="button" class="btn rounded-pill py-2 px-3" style="background-color: #285151; color: #D4E7E8; border: 0;">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+
+                <!-- Icons -->
+                <div class="d-flex align-items-center gap-2">
+                    <a href="#" class="text-center text-decoration-none" style="color: #9F9F9F;">
+                        <span class="rounded-circle btn-md-square border" style="border-color:#9F9F9F;"><i class="fas fa-random"></i></span>
+                    </a>
+                    <a href="#" class="text-center text-decoration-none" style="color: #9F9F9F;">
+                        <span class="rounded-circle btn-md-square border" style="border-color:#9F9F9F;"><i class="fas fa-heart"></i></span>
+                    </a>
+                    <a href="#" class="text-center text-decoration-none d-flex align-items-center" style="color: #9F9F9F;">
+                        <span class="rounded-circle btn-md-square border" style="border-color:#9F9F9F;"><i class="fas fa-shopping-cart"></i></span>
+                        <span class="ms-2" style="color:#285151;">Rp.0.00</span>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</nav>
+<!--Main Navbar End-->
+
+<!-- Uliecraft Carousel Start -->
+<div class="container-fluid carousel px-0" style="background-color: #D4E7E8;">
+    <div class="row g-0 justify-content-end">
+
+        <!-- Main Carousel -->
+        <div class="col-12 col-lg-7 col-xl-9">
+            <div class="header-carousel owl-carousel" style="background-color: #D4E7E8;">
+
+                <!-- Slide 1 -->
+                <div class="row g-0 header-carousel-item align-items-center">
+                    <div class="col-xl-6 carousel-img">
+                        <img src="img/framedpouchtoconvertwebp-removebg-preview.webp" class="img-fluid carousel-image" alt="Uliecraft Framed Pouch">
+                    </div>
+                    <div class="col-xl-6 carousel-content p-4">
+                        <h4 class="text-uppercase fw-bold mb-3 carousel-badge" 
+                            style="color: #285151; letter-spacing: 2px;">
+                            New Arrival
+                        </h4>
+
+                        <h1 class="carousel-title mb-3" style="color: #285151;">
+                            Handcrafted Canvas Bag Collection
+                        </h1>
+
+                        <p class="carousel-description" style="color: #285151;">Premium handmade essentials for your everyday story.</p>
+
+                        <a class="btn rounded-pill carousel-btn" 
+                           style="background-color: #285151; color: white;" href="#">
+                           Shop Now
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="row g-0 header-carousel-item align-items-center">
+                    <div class="col-xl-6 carousel-img">
+                        <img src="img/totebagcanvastoconvert-removebg-preview.webp" class="img-fluid carousel-image" alt="Uliecraft Tote Bag">
+                    </div>
+                    <div class="col-xl-6 carousel-content p-4">
+                        <h4 class="text-uppercase fw-bold mb-3 carousel-badge" 
+                            style="color: #285151; letter-spacing: 2px;">
+                            Best Seller
+                        </h4>
+
+                        <h1 class="carousel-title mb-3" style="color: #285151;">
+                            Seashell Canvas Bag
+                        </h1>
+
+                        <p class="carousel-description" style="color: #285151;">
+                            Your daily companion with spacious pockets & timeless design.
+                        </p>
+
+                        <a class="btn rounded-pill carousel-btn" 
+                           style="background-color: #285151; color: white;" href="#">
+                           Grab Yours
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Side Banner -->
+        <div class="col-12 col-lg-5 col-xl-3">
+            <div class="carousel-header-banner h-100 position-relative">
+                <img src="img/coinpursetoconvert-removebg-preview.webp" class="img-fluid w-100 h-100 carousel-side-image" alt="Uliecraft Coin Purse">
+
+                <!-- Offer Badge -->
+                <div class="position-absolute" style="top: 20px; left: 20px;">
+                    <p class="rounded fs-5 py-2 px-3 mb-0" 
+                       style="background-color: #285151; color: white;">
+                        Limited Stock
+                    </p>
+                    <p class="fs-5 fw-bold mb-0" style="color: #285151;">Special Edition</p>
+                </div>
+
+                <!-- Banner Content -->
+                <div class="carousel-banner position-absolute bottom-0 w-100 text-center p-4" 
+                     style="background: rgba(40, 81, 81, 0.6);">
+
+                    <a href="#" class="d-block mb-2 banner-category" style="color: #D4E7E8;">Canvas Tote</a>
+
+                    <a href="#" class="d-block banner-title" style="color: white;">Uliecraft Daily Tote</a>
+
+                    <div class="banner-price">
+                        <del class="me-2 fs-5" style="color: #D4E7E8;">Rp 189.000</del>
+                        <span class="fs-5" style="color: #285151;">Rp 159.000</span>
+                    </div>
+
+                    <a href="#" class="btn rounded-pill py-2 px-4 mt-3 banner-btn" 
+                       style="background-color: #285151; color: white;">
+                        <i class="fas fa-shopping-cart me-2"></i> Add To Cart
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- Uliecraft Carousel End -->
+
+
+
+       <!-- Services Start -->
+<div class="container-fluid px-0" style="background-color: hsl(180, 32%, 59%);">
+    <div class="row g-0">
+
+        <!-- Item 1 -->
+        <div class="col-6 col-md-4 col-lg-2 border-start border-end wow fadeInUp" data-wow-delay="0.1s">
+            <div class="p-4">
+                <div class="d-flex align-items-center">
+                    <i class="fa fa-sync-alt fa-2x" style="color: #285151;"></i>
+                    <div class="ms-3">
+                        <h6 class="text-uppercase mb-1" style="color: #285151; font-weight:600;">
+                            Free Return
+                        </h6>
+                        <p class="mb-0" style="color: #285151;">30 days money back guarantee</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="col-6 col-md-4 col-lg-2 border-end wow fadeInUp" data-wow-delay="0.2s">
+            <div class="p-4">
+                <div class="d-flex align-items-center">
+                    <i class="fab fa-telegram-plane fa-2x" style="color: #285151;"></i>
+                    <div class="ms-3">
+                        <h6 class="text-uppercase mb-1" style="color: #285151; font-weight:600;">
+                            Free Shipping
+                        </h6>
+                        <p class="mb-0" style="color: #285151;">On all orders</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="col-6 col-md-4 col-lg-2 border-end wow fadeInUp" data-wow-delay="0.3s">
+            <div class="p-4">
+                <div class="d-flex align-items-center">
+                    <i class="fas fa-life-ring fa-2x" style="color: #285151;"></i>
+                    <div class="ms-3">
+                        <h6 class="text-uppercase mb-1" style="color: #285151; font-weight:600;">
+                            Support 24/7
+                        </h6>
+                        <p class="mb-0" style="color: #285151;">Online support all day</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Item 4 -->
+        <div class="col-6 col-md-4 col-lg-2 border-end wow fadeInUp" data-wow-delay="0.4s">
+            <div class="p-4">
+                <div class="d-flex align-items-center">
+                    <i class="fas fa-credit-card fa-2x" style="color: #285151;"></i>
+                    <div class="ms-3">
+                        <h6 class="text-uppercase mb-1" style="color: #285151; font-weight:600;">
+                            Gift Cards
+                        </h6>
+                        <p class="mb-0" style="color: #285151;">Available for any purchase</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Item 5 -->
+        <div class="col-6 col-md-4 col-lg-2 border-end wow fadeInUp" data-wow-delay="0.5s">
+            <div class="p-4">
+                <div class="d-flex align-items-center">
+                    <i class="fas fa-lock fa-2x" style="color: #285151;"></i>
+                    <div class="ms-3">
+                        <h6 class="text-uppercase mb-1" style="color: #285151; font-weight:600;">
+                            Secure Payment
+                        </h6>
+                        <p class="mb-0" style="color: #285151;">Your security matters</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Item 6 -->
+        <div class="col-6 col-md-4 col-lg-2 border-end wow fadeInUp" data-wow-delay="0.6s">
+            <div class="p-4">
+                <div class="d-flex align-items-center">
+                    <i class="fas fa-blog fa-2x" style="color: #285151;"></i>
+                    <div class="ms-3">
+                        <h6 class="text-uppercase mb-1" style="color: #285151; font-weight:600;">
+                            Online Service
+                        </h6>
+                        <p class="mb-0" style="color: #285151;">Easy & fast assistance</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- Services End -->
+
+       <!-- About Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="row g-5">
+
+            <!-- About Images -->
+            <div class="col-lg-6">
+                <div class="row g-3">
+                    <div class="col-6 text-end">
+                        <img class="img-fluid w-100 mb-3 rounded wow fadeIn" data-wow-delay="0.1s" src="img/tas-jeans.webp" alt="">
+                        <img class="img-fluid w-50 rounded wow fadeIn" data-wow-delay="0.2s" src="img/totebagcanvas.webp" alt="">
+                    </div>
+                    <div class="col-6">
+                        <img class="img-fluid w-50 mb-3 rounded wow fadeIn" data-wow-delay="0.3s" src="img/tas3.webp" alt="">
+                        <img class="img-fluid w-100 rounded wow fadeIn" data-wow-delay="0.4s" src="img/tas2.webp" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <!-- About Content -->
+            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                <div class="section-title">
+                    <p class="fs-5 fw-medium fst-italic" style="color: #285151;">
+                        About Us
+                    </p>
+                    <h1 class="display-6" style="color: #285151;">
+                        Handcrafted Bags for Your Everyday Story
+                    </h1>
+                </div>
+
+                <div class="row g-3 mb-4">
+                    <div class="col-sm-4">
+                        <img class="img-fluid w-100 rounded" src="img/ulie-about-small-1.jpg" alt="">
+                    </div>
+                    <div class="col-sm-8">
+                        <h5 style="color:#285151;">Crafted with Purpose</h5>
+                        <p class="mb-0" style="color:#3D3B37;">
+                            Setiap produk Uliecraft dibuat dengan ketelitian tangan,
+                            memastikan kualitas yang tahan lama dan desain yang timeless
+                            untuk menemani aktivitasmu setiap hari.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="border-top mb-4" style="border-color: #9F9F9F;"></div>
+
+                <div class="row g-3">
+                    <div class="col-sm-8">
+                        <h5 style="color:#285151;">Designed for Real Life</h5>
+                        <p class="mb-0" style="color:#3D3B37;">
+                            Dari kompartemen luas hingga material yang kuat,
+                            setiap tas dibuat untuk membawa ceritamu —
+                            dari rutinitas harian hingga momen perjalanan.
+                        </p>
+                    </div>
+                    <div class="col-sm-4">
+                        <img class="img-fluid w-100 rounded" src="img/ulie-about-small-2.jpg" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- About End -->
+
+    <!-- Bestseller Products Start -->
+<div class="container-fluid products pb-5">
+    <div class="container products-mini py-5">
+        <div class="mx-auto text-center mb-5" style="max-width: 700px;">
+            <h4 class="mb-4 border-bottom border-2 d-inline-block p-2 title-border-radius wow fadeInUp"
+                data-wow-delay="0.1s" style="color:#285151; border-color:#285151;">
+                Bestseller Products
+            </h4>
+            <p class="mb-0 wow fadeInUp text-muted" data-wow-delay="0.2s">
+                Koleksi tas kanvas dan handmade accessories paling favorit dari Uliecraft.
+                Elegant, durable, and ready for your everyday story.
+            </p>
+        </div>
+
+        <div class="row g-4 justify-content-center">
+
+            <!-- Produk Tas Jeans-->
+            <div class="col-12 col-sm-10 col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="products-mini-item border position-relative" style="border-color:#285151;">
+                    <div class="row g-0 flex-column flex-md-row">
+                        <div class="col-md-5 col-12">
+                            <div class="products-mini-img border-end h-100" style="border-color:#285151;">
+                                <img src="img/tas-jeans.webp" class="img-fluid w-100 h-100 product-image" alt="Canvas Bag">
+                                <div class="products-mini-icon rounded-circle icon-bg">
+                                    <a href="jeansbag.html"><i class="fa fa-eye fa-1x text-white"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-7 col-12">
+                            <div class="products-mini-content p-3">
+                                <a href="#" class="d-block mb-2 text-muted category-link">Jeans Bag</a>
+                                <a href="#" class="d-block h5 product-title">Re-Cycle Jeans Bag</a>
+                                <div class="price-container mt-2">
+                                    <span class="text-muted me-2 fs-6"><del>Rp 189.000</del></span>
+                                    <span class="fs-6 fw-bold" style="color:#285151;">Rp 159.000</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="products-mini-add border p-3" style="border-color:#285151;">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <a href="#" class="btn custom-btn rounded-pill py-2 px-3 px-md-4">
+                                <i class="fas fa-shopping-cart me-1 me-md-2"></i> 
+                                <span class="btn-text">Add To Cart</span>
+                            </a>
+                            <div class="d-flex">
+                                <a href="#" class="icon-circle me-2 me-md-3"><span class="rounded-circle btn-sm-square border icon-border"><i class="fas fa-random"></i></span></a>
+                                <a href="#" class="icon-circle"><span class="rounded-circle btn-sm-square border icon-border"><i class="fas fa-heart"></i></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Produk Framed Pouch -->
+            <div class="col-12 col-sm-10 col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+                <div class="products-mini-item border position-relative" style="border-color:#285151;">
+                    <div class="row g-0 flex-column flex-md-row">
+                        <div class="col-md-5 col-12">
+                            <div class="products-mini-img border-end h-100" style="border-color:#285151;">
+                                <img src="img/framedpouch.webp" class="img-fluid w-100 h-100 product-image" alt="Canvas Bag">
+                                <div class="products-mini-icon rounded-circle icon-bg">
+                                    <a href="framedpouch.html"><i class="fa fa-eye fa-1x text-white"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-7 col-12">
+                            <div class="products-mini-content p-3">
+                                <a href="#" class="d-block mb-2 text-muted category-link">Pouch</a>
+                                <a href="#" class="d-block h5 product-title">Framed Pouch</a>
+                                <div class="price-container mt-2">
+                                    <span class="text-muted me-2 fs-6"><del>Rp 189.000</del></span>
+                                    <span class="fs-6 fw-bold" style="color:#285151;">Rp 159.000</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="products-mini-add border p-3" style="border-color:#285151;">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <a href="#" class="btn custom-btn rounded-pill py-2 px-3 px-md-4">
+                                <i class="fas fa-shopping-cart me-1 me-md-2"></i> 
+                                <span class="btn-text">Add To Cart</span>
+                            </a>
+                            <div class="d-flex">
+                                <a href="#" class="icon-circle me-2 me-md-3"><span class="rounded-circle btn-sm-square border icon-border"><i class="fas fa-random"></i></span></a>
+                                <a href="#" class="icon-circle"><span class="rounded-circle btn-sm-square border icon-border"><i class="fas fa-heart"></i></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Produk Sling Bag -->
+            <div class="col-12 col-sm-10 col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="products-mini-item border position-relative" style="border-color:#285151;">
+                    <div class="row g-0 flex-column flex-md-row">
+                        <div class="col-md-5 col-12">
+                            <div class="products-mini-img border-end h-100" style="border-color:#285151;">
+                                <img src="img/Tas4.webp" class="img-fluid w-100 h-100 product-image" alt="Canvas Bag">
+                                <div class="products-mini-icon rounded-circle icon-bg">
+                                    <a href="slingbag.html"><i class="fa fa-eye fa-1x text-white"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-7 col-12">
+                            <div class="products-mini-content p-3">
+                                <a href="#" class="d-block mb-2 text-muted category-link">Bag</a>
+                                <a href="#" class="d-block h5 product-title">Sling Bag</a>
+                                <div class="price-container mt-2">
+                                    <span class="text-muted me-2 fs-6"><del>Rp 189.000</del></span>
+                                    <span class="fs-6 fw-bold" style="color:#285151;">Rp 159.000</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="products-mini-add border p-3" style="border-color:#285151;">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <a href="#" class="btn custom-btn rounded-pill py-2 px-3 px-md-4">
+                                <i class="fas fa-shopping-cart me-1 me-md-2"></i> 
+                                <span class="btn-text">Add To Cart</span>
+                            </a>
+                            <div class="d-flex">
+                                <a href="#" class="icon-circle me-2 me-md-3"><span class="rounded-circle btn-sm-square border icon-border"><i class="fas fa-random"></i></span></a>
+                                <a href="#" class="icon-circle"><span class="rounded-circle btn-sm-square border icon-border"><i class="fas fa-heart"></i></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Produk Framed Bag-->
+            <div class="col-12 col-sm-10 col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
+                <div class="products-mini-item border position-relative" style="border-color:#285151;">
+                    <div class="row g-0 flex-column flex-md-row">
+                        <div class="col-md-5 col-12">
+                            <div class="products-mini-img border-end h-100" style="border-color:#285151;">
+                                <img src="img/tas2.webp" class="img-fluid w-100 h-100 product-image" alt="Canvas Bag">
+                                <div class="products-mini-icon rounded-circle icon-bg">
+                                    <a href="framedbag.html"><i class="fa fa-eye fa-1x text-white"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-7 col-12">
+                            <div class="products-mini-content p-3">
+                                <a href="#" class="d-block mb-2 text-muted category-link">Bag</a>
+                                <a href="#" class="d-block h5 product-title">Framed Bag</a>
+                                <div class="price-container mt-2">
+                                    <span class="text-muted me-2 fs-6"><del>Rp 189.000</del></span>
+                                    <span class="fs-6 fw-bold" style="color:#285151;">Rp 159.000</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="products-mini-add border p-3" style="border-color:#285151;">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <a href="#" class="btn custom-btn rounded-pill py-2 px-3 px-md-4">
+                                <i class="fas fa-shopping-cart me-1 me-md-2"></i> 
+                                <span class="btn-text">Add To Cart</span>
+                            </a>
+                            <div class="d-flex">
+                                <a href="#" class="icon-circle me-2 me-md-3"><span class="rounded-circle btn-sm-square border icon-border"><i class="fas fa-random"></i></span></a>
+                                <a href="#" class="icon-circle"><span class="rounded-circle btn-sm-square border icon-border"><i class="fas fa-heart"></i></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- Bestseller Products End -->
+
+<div hidden>
+<!-- Testimonial Start -->
+<div class="container-fluid testimonial py-5 my-5" style="background-color:#285151;">
+    <div class="container py-5">
+        <div class="section-title text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+            <p class="fs-5 fw-medium fst-italic" style="color:#D4E7E8;">Testimonial</p>
+            <h1 class="display-6" style="color:white;">What our clients say about Uliecraft</h1>
+        </div>
+        <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.5s">
+
+            <div class="testimonial-item p-4 p-lg-5" style="border:1px solid #D4E7E8; background-color:white;">
+                <p class="mb-4" style="color:#285151;">
+                    “Tasnya kuat, ringan, dan desainnya benar-benar versatile. Perfect for daily use!”
+                </p>
+                <div class="d-flex align-items-center justify-content-center">
+                    <img class="img-fluid flex-shrink-0" src="img/testimonial-1.jpg" alt="" style="border-radius:50%; width:65px;">
+                    <div class="text-start ms-3">
+                        <h5 style="color:#285151;">Client Name</h5>
+                        <span style="color:#9F9F9F;">Customer</span>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-item p-4 p-lg-5" style="border:1px solid #D4E7E8; background-color:white;">
+                <p class="mb-4" style="color:#285151;">
+                    “Materialnya tebal dan rapi. Sudah dicuci berkali-kali pun tetap awet!”
+                </p>
+                <div class="d-flex align-items-center justify-content-center">
+                    <img class="img-fluid flex-shrink-0" src="img/testimonial-2.jpg" alt="" style="border-radius:50%; width:65px;">
+                    <div class="text-start ms-3">
+                        <h5 style="color:#285151;">Client Name</h5>
+                        <span style="color:#9F9F9F;">Customer</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-item p-4 p-lg-5" style="border:1px solid #D4E7E8; background-color:white;">
+                <p class="mb-4" style="color:#285151;">
+                    “Design unik dan spacious, cocok untuk kerja maupun jalan santai. Love it!”
+                </p>
+                <div class="d-flex align-items-center justify-content-center">
+                    <img class="img-fluid flex-shrink-0" src="img/testimonial-3.jpg" alt="" style="border-radius:50%; width:65px;">
+                    <div class="text-start ms-3">
+                        <h5 style="color:#285151;">Client Name</h5>
+                        <span style="color:#9F9F9F;">Customer</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- Testimonial End -->
+</div>
+
+
+     <!-- Footer Start -->
+<div class="container-fluid py-5" style="background:#285151;">
+    <div class="container py-5">
+
+        <!-- 4 Icon Boxes -->
+        <div class="row g-4 rounded mb-5" style="background: rgba(212, 231, 232, 0.07);">
+            <div class="col-md-6 col-lg-6 col-xl-3">
+                <div class="rounded p-4">
+                    <div class="rounded-circle d-flex align-items-center justify-content-center mb-4"
+                        style="width: 70px; height: 70px; background:#D4E7E8;">
+                        <i class="fas fa-map-marker-alt fa-2x" style="color:#285151;"></i>
+                    </div>
+                    <h4 class="text-white">Address</h4>
+                    <p class="mb-2" style="color:#D4E7E8;">123 Street New York. USA</p>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-6 col-xl-3">
+                <div class="rounded p-4">
+                    <div class="rounded-circle d-flex align-items-center justify-content-center mb-4"
+                        style="width: 70px; height: 70px; background:#D4E7E8;">
+                        <i class="fas fa-envelope fa-2x" style="color:#285151;"></i>
+                    </div>
+                    <h4 class="text-white">Mail Us</h4>
+                    <p class="mb-2" style="color:#D4E7E8;">info@example.com</p>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-6 col-xl-3">
+                <div class="rounded p-4">
+                    <div class="rounded-circle d-flex align-items-center justify-content-center mb-4"
+                        style="width: 70px; height: 70px; background:#D4E7E8;">
+                        <i class="fa fa-phone-alt fa-2x" style="color:#285151;"></i>
+                    </div>
+                    <h4 class="text-white">Telephone</h4>
+                    <p class="mb-2" style="color:#D4E7E8;">(+012) 3456 7890</p>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-6 col-xl-3">
+                <div class="rounded p-4">
+                    <div class="rounded-circle d-flex align-items-center justify-content-center mb-4"
+                        style="width: 70px; height: 70px; background:#D4E7E8;">
+                        <i class="fab fa-firefox-browser fa-2x" style="color:#285151;"></i>
+                    </div>
+                    <h4 class="text-white">Yoursite@ex.com</h4>
+                    <p class="mb-2" style="color:#D4E7E8;">(+012) 3456 7890</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Links -->
+        <div class="row g-5">
+            <!-- Social Media Icons -->
+<div class="col-12 text-center mt-4">
+    <div class="d-flex justify-content-center gap-3">
+
+        <!-- Instagram -->
+        <a href="#" target="_blank"
+            class="d-flex align-items-center justify-content-center"
+            style="width:45px; height:45px; background:#D4E7E8; border-radius:50%;">
+            <i class="fab fa-instagram" style="color:#285151; font-size:20px;"></i>
+        </a>
+
+        <!-- WhatsApp -->
+        <a href="#" target="_blank"
+            class="d-flex align-items-center justify-content-center"
+            style="width:45px; height:45px; background:#D4E7E8; border-radius:50%;">
+            <i class="fab fa-whatsapp" style="color:#285151; font-size:20px;"></i>
+        </a>
+
+        <!-- Google Maps -->
+        <a href="#" target="_blank"
+            class="d-flex align-items-center justify-content-center"
+            style="width:45px; height:45px; background:#D4E7E8; border-radius:50%;">
+            <i class="fas fa-map-marked-alt" style="color:#285151; font-size:20px;"></i>
+        </a>
+
+    </div>
+</div>
+
+
+<!-- Footer End -->
+
+
+.footer-link {
+    color: #D4E7E8;
+    text-decoration: none;
+    margin-bottom: 6px;
+    display: block;
+}
+.footer-link:hover {
+    color: #ffffff;
+    margin-left: 3px;
+    transition: 0.2s ease;
+}
+
+
+
+        
+      <!-- Copyright Start -->
+<div class="container-fluid py-4" style="background:#285151;">
+    <div class="container">
+        <div class="row g-4 align-items-center">
+
+            <!-- Left -->
+            <div class="col-md-6 text-center text-md-start mb-md-0">
+                <span style="color:#D4E7E8;">
+                    <a href="#" class="border-bottom" style="color:#D4E7E8;">
+                        <i class="fas fa-copyright me-2" style="color:#D4E7E8;"></i>
+                        Uliecraft
+                    </a>, All rights reserved.
+                </span>
+            </div>
+
+            <!-- Right -->
+            <div class="col-md-6 text-center text-md-end">
+                <span style="color:#D4E7E8;">
+                    Designed By 
+                    <a href="https://instagram.com" class="border-bottom" style="color:#D4E7E8;">
+                        Faa of Gravitiq
+                    </a>
+                </span>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- Copyright End -->
+
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>   
+
+        
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    </body>
+
+</html>
