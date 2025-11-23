@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="utf-8">
+    <title>uliecraft - Satu Tas, Satu Cerita</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <style>
+        .top-bar {
+            background-color: #285151;
+            border-bottom: 2px solid #ffffff;
+        }
+        .navbar {
+            background-color: #D4E7E8;
+            border-bottom: 5px solid #ffffff;
+        }
+        .nav-link {
+            color: #285151 !important;
+            font-size: 1.1rem;
+            padding: 0.5rem 1rem;
+        }
+        .nav-link.active {
+            font-weight: 600;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+<!-- Main Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light custom-navbar">
+    <div class="container-fluid px-3 px-lg-5">
+        <!-- Logo dan Menu Toggle -->
+        <div class="d-flex align-items-center">
+            <!-- Logo -->
+            <a class="navbar-brand me-4" href="index.html">
+                <img src="img/Ulie2.png" alt="Uliecraft Logo" class="navbar-logo">
+            </a>
+
+            <!-- Toggler Button (Mobile) -->
+            <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+ <!-- Navbar Links -->
+        <div class="collapse navbar-collapse" id="mainNavbar">
+            <!-- Desktop Menu -->
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0 navbar-menu">
+                <li class="nav-item">
+                    <a class="nav-link nav-link-custom" href="index.html">
+                        <i class="fas fa-shopping-bag me-2 d-none d-sm-inline"></i>
+                        Home
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-link-custom" href="shop.html">
+                        <i class="fas fa-info-circle me-2 d-none d-sm-inline"></i>
+                        Shop
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-link-custom" href="contact.html">
+                        <i class="fas fa-envelope me-2 d-none d-sm-inline"></i>
+                        Contact
+                    </a>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+ <!-- Main Navbar End -->
+
+ <!-- Bootstrap JS -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- PRODUCT DETAIL -->
+    <div class="container py-5">
+        <div class="row g-4">
+
+            <!-- IMAGE -->
+            <div class="col-lg-6">
+                <img src="img/framedpouch.webp" class="img-fluid w-100" alt="Framed Pouch Uliecraft">
+            </div>
+
+            <!-- INFO -->
+            <div class="col-lg-6">
+                <h2 class="fw-bold" style="color: #285151;">Framed Pouch</h2>
+                <p class="text-muted">Handmade by Uliecraft</p>
+                <p class="price">Rp 85.000</p>
+
+                <div class="mb-4">
+                    <p class="fw-semibold" style="color: #285151;">Deskripsi Produk:</p>
+                    <p class="text-muted">
+                        Pouch dengan desain frame behel besi yang kokoh, membuat bagian atas terbuka lebar seperti tas dokter ketika dibuka. Memiliki satu ruang utama dengan penutup zipper dan satu kantong tambahan tanpa resleting untuk menyimpan barang kecil. Praktis, elegan, dan cocok untuk menyimpan make–up, koin, aksesori, atau kebutuhan harian.
+                    </p>
+                </div>
+
+                <!-- VARIANT -->
+                <div class="mb-4">
+                    <label class="form-label fw-semibold" style="color: #285151;">Pilih Varian:</label>
+                    <select class="form-select" id="variant" style="border-color: #285151;">
+                        <option value="Mint">Mint</option>
+                        <option value="Pink Floral">Pink Floral</option>
+                        <option value="Patchwork Colorful">Patchwork Colorful</option>
+                        <option value="Cream Pattern">Cream Pattern</option>
+                    </select>
+                </div>
+
+                <!-- QTY -->
+                <div class="mb-4">
+                    <label class="form-label fw-semibold" style="color: #285151;">Jumlah:</label>
+                    <div class="d-flex align-items-center gap-2">
+                        <button type="button" onclick="updateQty(-1)" class="btn btn-outline-secondary"
+                                style="border-color: #285151; color: #285151;">-</button>
+                        <input type="number" id="qty" value="1" min="1" class="form-control text-center"
+                               style="width: 80px; border-color: #285151;">
+                        <button type="button" onclick="updateQty(1)" class="btn btn-outline-secondary"
+                                style="border-color: #285151; color: #285151;">+</button>
+                    </div>
+                </div>
+
+                <!-- CUSTOM NOTE -->
+                <div class="mb-4">
+                    <label class="form-label fw-semibold" style="color: #285151;">Catatan Custom (Opsional):</label>
+                    <textarea id="customNote" class="form-control" rows="3"
+                              placeholder="Tulis permintaan custom..." style="border-color: #285151;"></textarea>
+                </div>
+
+                <!-- WA BUTTONS -->
+                <div class="d-grid gap-3">
+                    <a id="orderWA" class="btn btn-wa py-3" target="_blank">
+                        <i class="fab fa-whatsapp me-2"></i> Order via WhatsApp
+                    </a>
+
+                    <a id="customWA" class="btn btn-outline-secondary py-3" target="_blank"
+                       style="border-color: #285151; color: #285151;">
+                        <i class="fas fa-palette me-2"></i> Custom Request
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- DETAILS -->
+        <div class="row mt-5">
+            <h4 class="section-title">Detail Produk</h4>
+
+            <div class="col-md-4"><p><strong style="color:#285151;">Bahan:</strong><br>Katun Jepang / Patchwork + Frame Behel Besi</p></div>
+            <div class="col-md-4"><p><strong style="color:#285151;">Ukuran:</strong><br>15cm x 10cm</p></div>
+            <div class="col-md-4"><p><strong style="color:#285151;">Warna:</strong><br>Mint, Pink, Cream, Navy Blue</p></div>
+            <div class="col-md-4"><p><strong style="color:#285151;">Jenis:</strong><br>Pouch</p></div>
+            <div class="col-md-4"><p><strong style="color:#285151;">Fitur:</strong><br>Ritsleting, Ringan</p></div>
+            <div class="col-md-4"><p><strong style="color:#285151;">Perawatan:</strong><br>Cuci manual, Tidak direndam</p></div>
+        </div>
+
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        // FIX SPINNER
+        window.addEventListener("load", () => {
+            const spinner = document.getElementById("spinner");
+            if (spinner) spinner.classList.remove("show");
+        });
+
+        // PRODUCT DATA
+        const product = {
+            name: "Framed Pouch",
+            price: 85000,
+            size: "15cm x 10cm",
+            material: "Kanvas Premium"
+        };
+
+        const phoneNumber = "6289516033586";
+
+        function updateQty(val) {
+            const qtyInput = document.getElementById("qty");
+            let qty = parseInt(qtyInput.value) || 1;
+            qty = Math.max(1, qty + val);
+            qtyInput.value = qty;
+            updateWhatsAppLinks();
+        }
+
+        function updateWhatsAppLinks() {
+            const variant = document.getElementById("variant").value;
+            const qty = parseInt(document.getElementById("qty").value);
+            const customNote = document.getElementById("customNote").value;
+            const total = qty * product.price;
+
+            const receipt =
+                `*ULIECRAFT ORDER RECEIPT*%0A%0A` +
+                `*Produk:* ${product.name}%0A` +
+                `*Varian:* ${variant}%0A` +
+                `*Jumlah:* ${qty}%0A` +
+                `*Harga Satuan:* Rp ${product.price.toLocaleString('id-ID')}%0A` +
+                `*Total Harga:* Rp ${total.toLocaleString('id-ID')}%0A` +
+                `*Ukuran:* ${product.size}%0A` +
+                `*Bahan:* ${product.material}%0A%0A` +
+                `Silakan kirim alamat + metode pembayaran.`;
+
+            document.getElementById("orderWA").href =
+                `https://wa.me/${phoneNumber}?text=${receipt}`;
+
+            const customMsg =
+                `Halo Uliecraft!%0A%0A` +
+                `Saya ingin custom produk *${product.name}*:%0A` +
+                `- Varian: ${variant}%0A` +
+                `- Jumlah: ${qty}%0A` +
+                `- Catatan Custom: ${customNote || '-'}%0A%0A` +
+                `Mohon bantuannya.`;
+
+            document.getElementById("customWA").href =
+                `https://wa.me/${phoneNumber}?text=${customMsg}`;
+        }
+
+        document.addEventListener("DOMContentLoaded", updateWhatsAppLinks);
+    </script>
+<!-- Footer Links -->
+<div class="row g-5">
+    <!-- Social Media Icons -->
+    <div class="col-12 text-center mt-4">
+        <div class="d-flex justify-content-center gap-3">
+
+            <!-- Instagram -->
+            <a href="https://instagram.com/uliecraft" target="_blank"
+                class="social-icon d-flex align-items-center justify-content-center"
+                style="width:45px; height:45px; background:#D4E7E8; border-radius:50%; text-decoration: none; transition: all 0.3s ease;">
+                <i class="fab fa-instagram" style="color:#285151; font-size:20px;"></i>
+            </a>
+
+            <!-- WhatsApp -->
+            <a href="https://wa.me/6289516033586" target="_blank"
+                class="social-icon d-flex align-items-center justify-content-center"
+                style="width:45px; height:45px; background:#D4E7E8; border-radius:50%; text-decoration: none; transition: all 0.3s ease;">
+                <i class="fab fa-whatsapp" style="color:#285151; font-size:20px;"></i>
+            </a>
+
+            <!-- Google Maps -->
+            <a href="https://maps.google.com/?q=Makassar,Sulawesi+Selatan,Indonesia" target="_blank"
+                class="social-icon d-flex align-items-center justify-content-center"
+                style="width:45px; height:45px; background:#D4E7E8; border-radius:50%; text-decoration: none; transition: all 0.3s ease;">
+                <i class="fas fa-map-marked-alt" style="color:#285151; font-size:20px;"></i>
+            </a>
+
+            <!-- TikTok -->
+            <a href="https://tiktok.com/@uliecraft" target="_blank"
+                class="social-icon d-flex align-items-center justify-content-center"
+                style="width:45px; height:45px; background:#D4E7E8; border-radius:50%; text-decoration: none; transition: all 0.3s ease;">
+                <i class="fab fa-tiktok" style="color:#285151; font-size:20px;"></i>
+            </a>
+
+            <!-- Email -->
+            <a href="mailto:uliecraft@gmail.com"
+                class="social-icon d-flex align-items-center justify-content-center"
+                style="width:45px; height:45px; background:#D4E7E8; border-radius:50%; text-decoration: none; transition: all 0.3s ease;">
+                <i class="fas fa-envelope" style="color:#285151; font-size:20px;"></i>
+            </a>
+
+        </div>
+
+
+ <!-- Contact Info Horizontal - Simple Version -->
+<div class="mt-4">
+    <div class="contact-horizontal d-flex justify-content-center align-items-center flex-wrap gap-4 p-4 rounded" 
+         style="background: rgba(255, 255, 255, 0.3); border: 2px solid rgba(40, 81, 81, 0.2);">
+        
+        <!-- Phone -->
+        <div class="contact-line-item d-flex align-items-center">
+            <i class="fas fa-phone-alt me-2" style="color: #285151;"></i>
+            <div>
+                <span class="fw-bold" style="color: #285151;">Telepon:</span>
+                <span style="color: #285151;" class="ms-1">+62 895-1603-3586</span>
+            </div>
+        </div>
+
+        <div class="vertical-divider" style="width: 1px; height: 30px; background-color: rgba(40, 81, 81, 0.3);"></div>
+
+        <!-- Location -->
+        <div class="contact-line-item d-flex align-items-center">
+            <i class="fas fa-map-marker-alt me-2" style="color: #285151;"></i>
+            <div>
+                <span class="fw-bold" style="color: #285151;">Lokasi:</span>
+                <span style="color: #285151;" class="ms-1">Makassar, Sulawesi Selatan</span>
+            </div>
+        </div>
+
+        <div class="vertical-divider" style="width: 1px; height: 30px; background-color: rgba(40, 81, 81, 0.3);"></div>
+
+        <!-- Hours -->
+        <div class="contact-line-item d-flex align-items-center">
+            <i class="fas fa-clock me-2" style="color: #285151;"></i>
+            <div>
+                <span class="fw-bold" style="color: #285151;">Jam:</span>
+                <span style="color: #285151;" class="ms-1">09.00 - 17.00 WITA</span>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!---Contact Info Horizontal End-->
+<!-- Footer End -->
+
+
+        
+      <!-- Copyright Start -->
+<div class="container-fluid py-4" style="background:#285151;">
+    <div class="container">
+        <div class="row g-4 align-items-center">
+
+            <!-- Left -->
+            <div class="col-md-6 text-center text-md-start mb-md-0">
+                <span style="color:#D4E7E8;">
+                    <a href="#" class="border-bottom" style="color:#D4E7E8;">
+                        <i class="fas fa-copyright me-2" style="color:#D4E7E8;"></i>
+                        Gravitiq 2025
+                    </a>, All rights reserved.
+                </span>
+            </div>
+
+            <!-- Right -->
+            <div class="col-md-6 text-center text-md-end">
+                <span style="color:#D4E7E8;">
+                    Designed By 
+                    <a href="https://instagram.com/siifaaay" class="border-bottom" style="color:#D4E7E8;">
+                        Faa of Gravitiq
+                    </a>
+                </span>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- Copyright End -->
+    
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    </body>
+
+</body>
+</html>

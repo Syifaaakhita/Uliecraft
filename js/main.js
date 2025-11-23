@@ -11,6 +11,14 @@
     };
     spinner(0);
     
+    window.addEventListener("load", () => {
+    let spinner = document.getElementById("spinner");
+    if (spinner) {
+        spinner.classList.remove("show");
+    }
+});
+
+    
     
     // Initiate the wowjs
     new WOW().init();
